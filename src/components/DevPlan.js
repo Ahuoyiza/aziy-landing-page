@@ -1,10 +1,10 @@
-import React from 'react'
+import Layout from "./Layout";
 
 const DevPlan = () => {
   return (
-    <div>
+    <Layout>
       <h1>Dev Plan</h1>
-    </div>
+    </Layout>
   )
 }
 

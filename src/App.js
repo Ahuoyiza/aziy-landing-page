@@ -1,5 +1,4 @@
 import React from 'react';
-import { Heading } from '@chakra-ui/react';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './components/Home';
 import DevPlan from './components/DevPlan';
@@ -31,7 +30,6 @@ const router  = createBrowserRouter([
 const App = () => {
   return (
     <>
-      <Heading  as='h1' size='4xl'>New App</Heading>
       <RouterProvider router={router}></RouterProvider>
     </>
   )

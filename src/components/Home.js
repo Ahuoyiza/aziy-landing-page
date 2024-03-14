@@ -1,10 +1,11 @@
 import Layout from "./Layout";
 // import { Box } from '@chakra-ui/react';
+import Hero from "./Hero.section";
 
 const Home = () => {
   return (
     <Layout>
-     <h1>Home</h1>
+     <Hero/>
     </Layout>
   )
 }

@@ -21,7 +21,7 @@ const Footer = () => {
         px={10}
         width="100vw"
         justifyContent="space-around"
-        style={{outline:"1px solid #FF743F",backgroundColor: "#001826", color: "#fff"}}
+        style={{backgroundColor: "#000001", color: "#fff"}}
       >
         {/* Desktop */}
         <NavLink to="/" >

@@ -10,18 +10,10 @@ import BgVid from '../assets/BackgroundGaming.mp4';
 import './Hero.css';
 const Hero= () => {
   return (
-    <Flex minH={"90vh"}  color= "#fff">
+    <Flex height={"85vh"}  color= "#fff" >
       <Flex direction="column" justifyContent={"center"} alignItems={"center"} w={"100vw"}>
         <video className="vdbg" loop autoPlay muted src={BgVid} 
-        style={{
-          // objectFit: "contain",
-          // width: "100vw",
-          // zIndex: "-1",
-          // top: "0",
-          // left: "0",
-          // position: "absolute",
-          // minHeight: "(max-width: 800px) ? 100vh : 80vh",
-        }}
+  
         >
         </video>
         <Heading as="h1" size="4xl"  mb={10} textAlign={"center"}>Become A Digital Explorer</Heading>

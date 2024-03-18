@@ -3,7 +3,8 @@ import {
   Heading,
   Text,
   Button, 
-  Box
+  Box,
+  Link
 
 } from '@chakra-ui/react';
 import BgVid from '../assets/BackgroundGaming.mp4';
@@ -27,10 +28,13 @@ const Hero= () => {
         </Text>
        </Box>
         <Button
+        as={Link}
         fontWeight={"500"}
         fontSize={"1.2em"}
         py={'20px'}
         px={'2px'}
+        href='https://aziy-game-demo.vercel.app/'
+        target='_blank'
         width={"8em"}
         >
           Play Now</Button>

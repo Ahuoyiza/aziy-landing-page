@@ -49,7 +49,7 @@ const [display, changeDisplay] = useState('none')
             </Button>
           </NavLink>
 
-          <NavLink to="/about"  style={{ margin:"0px 1em"}}>
+          <NavLink to="https://aziy-labs.gitbook.io/aziy-games/"  style={{ margin:"0px 1em"}}>
             <Button
               as="a"
               variant="link"
@@ -62,7 +62,7 @@ const [display, changeDisplay] = useState('none')
             </Button>
           </NavLink>
 
-          <NavLink to="/dev" >
+          <NavLink to="https://aziy-labs.gitbook.io/aziy-games/overview/prd-aziy" >
             <Button
               as="a"
               variant="link"
